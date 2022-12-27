@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="p-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual seu país</title>
+</head>
+<body>
+    <h1>Você é de onde?</h1>
+Você mora em que país?<input type="text"name="txt1" id="txt1"> <input type="button" value="Verificar" onclick="calcular()"> 
+    <div id="resultado">
+    </div>
+    <script>
+        function calcular(){
+         var pais= document.getElementById('Brasil').value
+        var res=document.getElementById('div#res')
+         var txt=String(txtv.value)
+         resultado.innerText = `<p> Você é do país ${pais}</p>`
+            
+}
+    </script>
+</body>
+</html>

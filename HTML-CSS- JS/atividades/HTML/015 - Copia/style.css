@@ -1,0 +1,26 @@
+@charset "UTF";
+
+
+body{
+background-color: darkkhaki;
+
+}
+
+h1 {
+background-color: darkgoldenrod;
+color: black;
+
+
+}
+h2{
+font-family: 'Courier New', Courier, monospace;
+color: rgb(246, 250, 242);
+
+}
+p {
+
+    text-align: left;
+}
+a{ 
+    background-color: blanchedalmond;
+}
